@@ -6,6 +6,7 @@ typedef struct {
   TextBuffer buffer;
   int mode;
   char *filename;
+  int should_exit;
 } bState;
 
 void handle_input(bState *bs, int input);
